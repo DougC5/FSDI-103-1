@@ -1,0 +1,110 @@
+
+.vegasImg{
+    position: relative;
+    height: 250px;
+    width: 80%;
+    z-index: -2
+          
+}
+
+
+.bLayer{
+    background: rgba(0,0,0,.7);
+}
+
+.maskLayer{
+    position: relative;
+    background: #000;
+    z-index: -1
+
+}
+
+h1 {
+    top: 40px;
+    left: 40px;
+    
+}
+
+h2 {
+    
+    top: 160px;
+    left: 40px;
+}
+
+h1, h2{
+    position: absolute;
+    color: #fff;
+    background: rgba(50,50,50,.5);
+    padding: 20px 50px;
+    border: 5px solid #000;
+    letter-spacing: 1.5px;
+    
+}
+
+
+body {
+    text-align: center;
+    margin-left: 15px;
+
+}
+
+tr th{
+    background: #222;
+    color: #eee;
+    font-size: 24px;
+    height: 50px;
+}
+
+table {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -6%); 
+}
+
+tr:nth-child(odd){
+    background: #ddd;
+}
+
+table td {
+    border: 1px solid #000;
+}
+
+img {
+    height: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.descBox {
+    text-align: center;
+    width: 200px;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    font-size: 16px;
+    color: #fff5ef;
+    outline-color: #555;
+    outline-style: outset
+}
+
+button:hover {
+    background-color: #ddd;
+    font-size: 18px;
+    text-emphasis: bold;
+    color: #ff6600;
+    outline-color: #555;
+
+}
+
+.buyButton {
+    width: 150px;
+}
